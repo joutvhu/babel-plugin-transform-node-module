@@ -1,8 +1,8 @@
 {
     "name": "babel-plugin-transform-node-module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This plugin transforms ES2015 modules to Node.js module system.",
-    "repository": "https://github.com/joutvhu/babel-plugin-transform-node-module",
+    "author": "Jout V Hu (Giao Ho)",
     "license": "MIT",
     "directories": {
         "lib": "./lib"
@@ -17,10 +17,16 @@
     "publishConfig": {
         "access": "public"
     },
+    "homepage": "https://github.com/joutvhu/babel-plugin-transform-node-module",
+    "bugs": {
+        "url": "https://github.com/joutvhu/babel-plugin-transform-node-module/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/joutvhu/babel-plugin-transform-node-module.git"
+    },
     "dependencies": {
-        "@babel/helper-module-transforms": "^7.4.3",
-        "@babel/helper-plugin-utils": "^7.0.0",
-        "@babel/helper-simple-access": "^7.1.0"
+        "@babel/helper-plugin-utils": "^7.0.0"
     },
     "keywords": [
         "babel-plugin",
